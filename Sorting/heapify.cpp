@@ -58,7 +58,7 @@ int main(){
     buildHeap(A,n-1);
 
    
-    cout << "After sorting:"<< endl;
+    cout << "After Heapify:"<< endl;
 
     for(int i =0; i < n; i++){
        cout << A[i] << ", ";
